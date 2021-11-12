@@ -3,7 +3,7 @@ const app = express();
 const path = require("path");
 const hbs = require("hbs");
 const http = require("http");
-const port = process.env.PORT || 3000;
+const port = process.env.PORT;
 
 require("./db/conn");
 const Register = require("./models/registers");
